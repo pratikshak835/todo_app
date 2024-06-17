@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
             color: Color(0xFF000A1F),
           ),
         ),
-        home: const TodoScreen(),
+        home: TodoScreen(),
       ),
     );
   }
