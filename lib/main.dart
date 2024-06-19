@@ -16,7 +16,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
+    return
+        //   const MaterialApp(
+        //   debugShowCheckedModeBanner: false,
+        //   home: App(),
+        // );
+
+        MultiBlocProvider(
       providers: [
         BlocProvider(
           create: (context) => TodosBloc()
